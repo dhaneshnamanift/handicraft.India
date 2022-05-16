@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="icon" type="image/x-icon" href="icon/favicon (6).ico">
+    <style>
+        header {
+            background-color: black;
+            color: beige;
+            padding: 5px;
+            text-align: center;
+        }
+
+        .navigation {
+            display: flex;
+            flex-direction: row-reverse;
+            align-items: center;
+            justify-content: space-evenly;
+            background-color: red;
+            color: azure;
+            height: 1cm;
+            padding: 3px;
+        }
+
+        .navigation li:hover {
+            color: yellow;
+        }
+
+        .navigation li:checked {
+            color: yellow;
+        }
+
+        .container {
+            border: 2px solid black;
+            margin-top: 1cm;
+            background-image: url(images/craft\ 1.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 18cm;
+            width: 39.65cm;
+        }
+
+        form {background-color: rgba(0, 0, 0, 0.548);
+            position: relative;
+            left: 3cm;
+            top:5cm;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+margin: 5px;
+padding: 1cm;
+            width: fit-content;
+            height: 6cm;
+            border: 2px solid red;
+        }
+
+        form input {
+            width: 10cm;
+            height: 0.8cm;
+        }
+        form button{color: aliceblue;
+            height: 40px;
+            width: 80px;
+            background-color: red;
+        }
+        form button:hover{
+            color: aliceblue;
+            background-color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        welcome to our website
+    </header>
+    <nav class="navigation">
+        <input type="search" placeholder="search">
+        <li class="list">Menu</li>
+        <li class="list">About us</li>
+        <li class="list">Gallery</li>
+        <li class="list">Contact Us</li>
+    </nav>
+
+    <div class="container">
+        <div class="title">
+          
+
+            <form action="loging in">
+
+                email <input type="email, number" name="identity" placeholder="email or phone number">
+                <br>
+                password <input type="password" name="unique password" placeholder="password">
+                <br>
+                <button type="submit">submit</button>
+            </form>
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>
